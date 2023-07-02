@@ -7,18 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C14BB4222A510D2E008FCB2E /* AnimationRepeat.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14BB4212A510D2E008FCB2E /* AnimationRepeat.swift */; };
+		C14BB4242A515E58008FCB2E /* Transitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14BB4232A515E58008FCB2E /* Transitions.swift */; };
 		C1F0D9192A4DDFE700F1990E /* AnimationsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F0D9182A4DDFE700F1990E /* AnimationsApp.swift */; };
-		C1F0D91B2A4DDFE700F1990E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F0D91A2A4DDFE700F1990E /* ContentView.swift */; };
+		C1F0D91B2A4DDFE700F1990E /* likeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F0D91A2A4DDFE700F1990E /* likeButton.swift */; };
 		C1F0D91D2A4DDFE900F1990E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1F0D91C2A4DDFE900F1990E /* Assets.xcassets */; };
 		C1F0D9202A4DDFE900F1990E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1F0D91F2A4DDFE900F1990E /* Preview Assets.xcassets */; };
+		C1F0D9272A4DFA6F00F1990E /* AnimationSpeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F0D9262A4DFA6F00F1990E /* AnimationSpeed.swift */; };
+		C1F0D9292A4E8D5400F1990E /* AnimationSpring.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F0D9282A4E8D5400F1990E /* AnimationSpring.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C14BB4212A510D2E008FCB2E /* AnimationRepeat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationRepeat.swift; sourceTree = "<group>"; };
+		C14BB4232A515E58008FCB2E /* Transitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transitions.swift; sourceTree = "<group>"; };
 		C1F0D9152A4DDFE700F1990E /* Animations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Animations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1F0D9182A4DDFE700F1990E /* AnimationsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationsApp.swift; sourceTree = "<group>"; };
-		C1F0D91A2A4DDFE700F1990E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C1F0D91A2A4DDFE700F1990E /* likeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = likeButton.swift; sourceTree = "<group>"; };
 		C1F0D91C2A4DDFE900F1990E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C1F0D91F2A4DDFE900F1990E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C1F0D9262A4DFA6F00F1990E /* AnimationSpeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationSpeed.swift; sourceTree = "<group>"; };
+		C1F0D9282A4E8D5400F1990E /* AnimationSpring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationSpring.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +60,11 @@
 			isa = PBXGroup;
 			children = (
 				C1F0D9182A4DDFE700F1990E /* AnimationsApp.swift */,
-				C1F0D91A2A4DDFE700F1990E /* ContentView.swift */,
+				C1F0D91A2A4DDFE700F1990E /* likeButton.swift */,
+				C14BB4212A510D2E008FCB2E /* AnimationRepeat.swift */,
+				C14BB4232A515E58008FCB2E /* Transitions.swift */,
+				C1F0D9262A4DFA6F00F1990E /* AnimationSpeed.swift */,
+				C1F0D9282A4E8D5400F1990E /* AnimationSpring.swift */,
 				C1F0D91C2A4DDFE900F1990E /* Assets.xcassets */,
 				C1F0D91E2A4DDFE900F1990E /* Preview Content */,
 			);
@@ -137,8 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1F0D91B2A4DDFE700F1990E /* ContentView.swift in Sources */,
+				C14BB4242A515E58008FCB2E /* Transitions.swift in Sources */,
+				C1F0D91B2A4DDFE700F1990E /* likeButton.swift in Sources */,
+				C14BB4222A510D2E008FCB2E /* AnimationRepeat.swift in Sources */,
 				C1F0D9192A4DDFE700F1990E /* AnimationsApp.swift in Sources */,
+				C1F0D9272A4DFA6F00F1990E /* AnimationSpeed.swift in Sources */,
+				C1F0D9292A4E8D5400F1990E /* AnimationSpring.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
